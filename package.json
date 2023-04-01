@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Mohammedfouadd.github.io/3D_portfoli",
   "name": "3d-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "nmp run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
